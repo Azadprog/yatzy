@@ -9,7 +9,7 @@ public class YatzyTest {
 
     @Test
     void shouldScoresOne(){
-assertEquals(4, new YatzyGame().score);
+assertEquals(4, new YatzyGame().score(YatzyCategory.ONES,  new int[]  {1, 1, 2, 1,1}));
     }
 
 }
